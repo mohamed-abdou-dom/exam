@@ -1,0 +1,84 @@
+.page-section{
+    padding: 60px;
+}
+
+.welcome{
+    .content{
+        margin-top: 70px;
+        h2{
+            text-transform: capitalize;
+            letter-spacing: 1.8px;
+            color: burlywood;
+            font-size: 45px;
+            font-weight: 100;
+            margin-bottom: 40px;
+        }
+        p{
+            color: cadetblue;
+            text-align: justify;
+            font-size: 16px;
+            letter-spacing: 1.2px;
+            line-height: 30.5px;
+            a{
+                text-decoration: none;
+                color: burlywood;
+                text-transform: capitalize;
+                font-size: 20px;
+                transition: all ease-in-out 0.5s;
+            }
+        }
+    }
+}
+
+.auth{
+    h2{
+        text-transform: capitalize;
+        letter-spacing: 1.8px;
+        color: burlywood;
+        font-size: 45px;
+        font-weight: 100;
+        margin-bottom: 40px;
+    }
+    .card{
+        width: 60%;
+        margin: auto;
+        border-radius: 0;
+        .card-body{
+            padding: 70px 0;
+            form{
+                width: 60%;
+                margin: auto;
+                input{
+                    border-radius: 0;
+                }
+                button{
+                    background-color: burlywood;
+                    border-radius: 0;
+                    border: 1px solid burlywood;
+                    color: #ffffff;
+                    letter-spacing: 1.3px;
+                    padding: 10px 20px;
+                    &:hover{
+                        background-color: #ffffff;
+                        color: burlywood;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.exams,.questions{
+    h5{
+        text-transform: capitalize;
+        color: burlywood;
+        font-size: 28px;
+        letter-spacing: 1.3px;
+    }
+    p{
+        color: cadetblue;
+        font-size: 18px;
+        letter-spacing: 1.3px;
+        text-transform: capitalize;
+    }
+}
